@@ -328,6 +328,7 @@ function comparaListas(letra) {
         for (i = 0; i < palavraSecretaSorteada.length; i++) {
             if (palavraSecretaSorteada[i] == letra) {
                 listaDinamica[i] = letra;
+                document.getElementById("tecla-" + letra).style.backgroundColor = "blue"; // MUDAR COR DEPOIS
             }
         }
     }
@@ -349,7 +350,6 @@ function comparaListas(letra) {
 }
 function modalPerdeu(){
     $('#modalPerdeu').modal('show');
-    document.getElementById('#Fechar').reload(index.html);
 }
 
 function modalGanhou(){
