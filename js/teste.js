@@ -349,6 +349,7 @@ function comparaListas(letra) {
 }
 function modalPerdeu(){
     $('#modalPerdeu').modal('show');
+    document.getElementById('#Fechar').reload(index.html);
 }
 
 function modalGanhou(){
