@@ -10,285 +10,286 @@ let palavraSecretaSorteada;
 const palavras = [
     palavra001 = {
         nome: "IRLANDA",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra002 = {
         nome: "EQUADOR",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra003 = {
         nome: "CHILE",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra004 = {
         nome: "INDONESIA",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra005 = {
         nome: "MALDIVAS",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra006 = {
         nome: "INGLATERRA",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra007 = {
         nome: "GROELANDIA",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra008 = {
         nome: "UZBEQUISTAO",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra009 = {
         nome: "INDONESIA",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra010 = {
         nome: "CREGUENHEM",
-        categoria:"LUGARES"
+        categoria: "LUGARES"
     },
     palavra011 = {
         nome: "BICICLETA",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra012 = {
         nome: "LANCHA",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra013 = {
         nome: "NAVIO",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra014 = {
         nome: "TELEFERICO",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra015 = {
         nome: "MOTOCICLETA",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra016 = {
         nome: "BARCO",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra017 = {
         nome: "AERONAVE",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra018 = {
         nome: "TREM",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra019 = {
         nome: "CAIAQUE",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra020 = {
         nome: "FUNICULAR",
-        categoria:"TRANSPORTE"
+        categoria: "TRANSPORTE"
     },
     palavra021 = {
         nome: "XICARA",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra022 = {
         nome: "MOEDA",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra023 = {
         nome: "ESPARADRAPO",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra024 = {
         nome: "SINO",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra025 = {
         nome: "CHUVEIRO",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra026 = {
         nome: "TAMBORETE",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra027 = {
         nome: "LAMPADA",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra028 = {
         nome: "BOCAL",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra029 = {
         nome: "CORTINA",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra030 = {
         nome: "LAPIS",
-        categoria:"OBJETOS"
+        categoria: "OBJETOS"
     },
     palavra031 = {
         nome: "MELANCIA",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra032 = {
         nome: "AMENDOIM",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra033 = {
         nome: "ESFIRRA",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra034 = {
         nome: "GOROROBA",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra035 = {
         nome: "JANTAR",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra036 = {
         nome: "SABOROSO",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra037 = {
         nome: "DESJEJUM",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra038 = {
         nome: "MASTIGAR",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra039 = {
         nome: "ENGOLIR",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra040 = {
         nome: "DOCERIA",
-        categoria:"ALIMENTOS"
+        categoria: "ALIMENTOS"
     },
     palavra040 = {
         nome: "DRAGAO",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra041 = {
         nome: "GALINHA",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra042 = {
         nome: "PAVAO",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra043 = {
         nome: "CAMELO",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra044 = {
         nome: "PERU",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra045 = {
         nome: "ZEBRA",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra046 = {
         nome: "DROMEDARIO",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra047 = {
         nome: "CALANGO",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra048 = {
         nome: "SAGUI",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra049 = {
         nome: "LAGARTIXA",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra050 = {
         nome: "HIPOPOTAMO",
-        categoria:"ANIMAIS"
+        categoria: "ANIMAIS"
     },
     palavra051 = {
         nome: "A ERA DO GELO",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra052 = {
         nome: "HOMEM ARANHA",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra053 = {
         nome: "CASA MONSTRO",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra054 = {
         nome: "TELA QUENTE",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra055 = {
         nome: "STRANGER THINGS",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra056 = {
         nome: "O REI DO GADO",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra057 = {
         nome: "MULHER MARAVILHA",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra058 = {
         nome: "O INCRIVEL HULK",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra059 = {
         nome: "BOB ESPONJA",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     },
     palavra060 = {
         nome: "PANICO NA TV",
-        categoria:"TV E CINEMA"
+        categoria: "TV E CINEMA"
     }
 ];
 
 // Sortear uma palavra da minha lista 
 sortearPalavraSecreta();
-function sortearPalavraSecreta(){
+
+function sortearPalavraSecreta() {
     const indexPalavra = parseInt(Math.random() * palavras.length)
 
-// Depois de sortear busca na lista a palavra e a categoria
+    // Depois de sortear busca na lista a palavra e a categoria
     palavraSecretaSorteada = palavras[indexPalavra].nome;
     palavraSecretaCategoria = palavras[indexPalavra].categoria;
 }
 
 mostrarPalavra();
 // Mostrar na tela a categoria da palavra selecionada 
-function mostrarPalavra(){
+function mostrarPalavra() {
     const categoria = document.getElementById("categoria");
     categoria.innerHTML = palavraSecretaCategoria;
 
-// Mostrar a palavra na tela 
+    // Mostrar a palavra na tela 
     const palavraSecreta = document.getElementById("palavra_secreta");
     palavraSecreta.innerHTML = "";
 
     // Sumir a palavra e aparecer os tracinhos e espaços conforme o acerto
 
-for(i = 0; i < palavraSecretaSorteada.length; i++) {
-    
-    // Se nao tiver nada naquela posição (a letra não for descoberta), adicionar um espaço
-    if ( listaDinamica[i] == undefined ) {
-        listaDinamica[i] = "&nbsp;"
-        palavraSecreta.innerHTML = palavraSecreta.innerHTML + "<div class='letras'>" +listaDinamica[i]+ "</div>"
-    }
+    for (i = 0; i < palavraSecretaSorteada.length; i++) {
 
-    // Se a letra for descoberta, adicionar a letra 
-    else{
-        palavraSecreta.innerHTML = palavraSecreta.innerHTML + "<div class='letras'>" +listaDinamica[i]+ "</div>"
+        // Se nao tiver nada naquela posição (a letra não for descoberta), adicionar um espaço
+        if (listaDinamica[i] == undefined) {
+            listaDinamica[i] = "&nbsp;"
+            palavraSecreta.innerHTML = palavraSecreta.innerHTML + "<div class='letras'>" + listaDinamica[i] + "</div>"
+        }
+
+        // Se a letra for descoberta, adicionar a letra 
+        else {
+            palavraSecreta.innerHTML = palavraSecreta.innerHTML + "<div class='letras'>" + listaDinamica[i] + "</div>"
+        }
     }
-}
 
 }
 
@@ -297,34 +298,36 @@ function verificaLetraEscolhida(letra) {
 
     // nao deixa selecionar uma letra que ja foi tentadata
     document.getElementById("tecla-" + letra).disabled = true;
+    document.getElementById("tecla-" + letra).style.backgroundColor = "red"; // MUDAR COR DEPOIS
 
     // verificar se ainda tem tentativas
-    if(tentativas > 0){
+    if (tentativas > 0) {
         comparaListas(letra);
         mostrarPalavra();
     }
 
 }
 
+
 // Verifica se a letra seleciona esta na palavra e em qual posiçaõ
-function comparaListas(letra){
+function comparaListas(letra) {
     const posicao = palavraSecretaSorteada.indexOf(letra)
 
     // se errou a letra diminuir tentativas 
-    if(posicao < 0){
-        tentativas --
+    if (posicao < 0) {
+        tentativas--
     }
 
     // so errou mais de 6 vezes, mensagem de perdeu
-    if(tentativas == 0){
+    if (tentativas == 0) {
         const mensagem = document.getElementById("mensagem");
-    mensagem.innerHTML = "Voce Perdeu";
+        mensagem.innerHTML = "Voce Perdeu";
     }
-    
+
     // se acertou a letra, a letra aparece na tela na posição da letra
-    else{
-        for (i = 0; i < palavraSecretaSorteada.length; i++){
-            if (palavraSecretaSorteada[i] == letra){
+    else {
+        for (i = 0; i < palavraSecretaSorteada.length; i++) {
+            if (palavraSecretaSorteada[i] == letra) {
                 listaDinamica[i] = letra;
             }
         }
@@ -334,17 +337,16 @@ function comparaListas(letra){
     let vitoria = true;
 
     // se alguma das posições estiverem erradas, transforma em false
-    for (i = 0; i < palavraSecretaSorteada.length; i++){
-        if (palavraSecretaSorteada[i] != listaDinamica[i]){
+    for (i = 0; i < palavraSecretaSorteada.length; i++) {
+        if (palavraSecretaSorteada[i] != listaDinamica[i]) {
             vitoria = false;
         }
     }
 
-    if (vitoria == true){
+    if (vitoria == true) {
         const mensagem = document.getElementById("mensagem");
-    mensagem.innerHTML = "Voce Ganhou";
+        mensagem.innerHTML = "Voce Ganhou";
         tentativas = 0;
     }
 
 }
-
