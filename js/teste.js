@@ -320,8 +320,7 @@ function comparaListas(letra) {
 
     // so errou mais de 6 vezes, mensagem de perdeu
     if (tentativas == 0) {
-        const mensagem = document.getElementById("mensagem");
-        mensagem.innerHTML = "Voce Perdeu";
+        modalPerdeu();
     }
 
     // se acertou a letra, a letra aparece na tela na posição da letra
@@ -344,9 +343,14 @@ function comparaListas(letra) {
     }
 
     if (vitoria == true) {
-        const mensagem = document.getElementById("mensagem");
-        mensagem.innerHTML = "Voce Ganhou";
-        tentativas = 0;
+        modalGanhou();
     }
 
+}
+function modalPerdeu(){
+    $('#modalPerdeu').modal('show');
+}
+
+function modalGanhou(){
+    $('#modalGanhou').modal('show');
 }
