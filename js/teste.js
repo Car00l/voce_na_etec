@@ -348,10 +348,25 @@ function comparaListas(letra) {
     }
 
 }
-function modalPerdeu(){
+
+//Botão de recarregar a página
+function modalPerdeu() {
     $('#modalPerdeu').modal('show');
 }
 
-function modalGanhou(){
+function modalGanhou() {
     $('#modalGanhou').modal('show');
 }
+
+//O que fez funcionar o Refresh
+const btn = document.querySelector('#Fechar');
+
+btn.addEventListener('click', () => {
+    location.reload();
+});
+
+const btn1 = document.querySelector('#close');
+
+btn1.addEventListener('click', () => {
+    location.reload();
+});
