@@ -1,4 +1,4 @@
-let tentativas = 6;
+let tentativas = 7;
 
 let listaDinamica = [];
 
@@ -316,11 +316,21 @@ function comparaListas(letra) {
     // se errou a letra diminuir tentativas 
     if (posicao < 0) {
         tentativas--
-    }
-
-    // so errou mais de 6 vezes, mensagem de perdeu
-    if (tentativas == 0) {
-        modalPerdeu();
+        if (tentativas == 6) {
+            $('#head').show();
+        } else if (tentativas == 5) {
+            $('#torso').show();
+        } else if (tentativas == 4) {
+            $('#right-arm').show();
+        } else if (tentativas == 3) {
+            $('#left-arm').show();
+        } else if (tentativas == 2) {
+            $('#right-leg').show();
+        } else if (tentativas == 1) {
+            $('#left-leg').show();
+        } else if (tentativas == 0) {
+            modalPerdeu();
+        }
     }
 
     // se acertou a letra, a letra aparece na tela na posição da letra
@@ -370,3 +380,24 @@ const btn1 = document.querySelector('#close');
 btn1.addEventListener('click', () => {
     location.reload();
 });
+
+
+//SCRIPT DA FORCA
+//ESCONDER PARTES DA FORCA
+
+
+//CABEÇA 
+$('#head').hide();
+
+//PEITO DO BONECO
+$('#torso').hide();
+
+//BRAÇO DIREITO
+$('#right-arm').hide();
+//BRAÇO ESQUERDO
+$('#left-arm').hide();
+
+//PERNA DIREITO
+$('#right-leg').hide();
+//PERNA ESQUERDO
+$('#left-leg').hide();
