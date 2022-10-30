@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color:#162B4C ;
 }
 
 .letras {
@@ -28,22 +29,25 @@ body {
     border-radius: 10px;
     width: 100%;
     height: 4px;
-    background: #000;
+    background: rgb(255, 255, 255);
     display: block;
 }
 
 #palavra_secreta {
+    color:#fff;
     display: flex;
     margin-bottom: 50px;
     font-size: 2em;
 }
 
 .teclas {
-    background: rgb(234, 234, 234);
+    background: #ebae06;
     border-radius: 20px;
     padding: 40px 50px;
-    width: 70em;
+    /* width: auto; */
+    margin: 50px;
     text-align: center;
+    box-shadow: 3px 5px 10px;
 }
 
 .btn-letra {
@@ -52,18 +56,21 @@ body {
     border-radius: 8px;
     margin: 5px 5px;
     border: 0;
-    background: rgb(182, 182, 182);
+    background: #fdd870;
     padding: 20px 35px;
     transition: 0.15s;
 }
 
 .btn-letra:hover {
     transform: translateY(-5px) scale(1.05);
-    background: rgb(209, 209, 209);
 }
 
 #categoria {
     margin-bottom: 20px;
     font-size: 2em;
+    color:#fff;
     font-weight: 600;
+}
+svg{
+    height: 40em;
 }

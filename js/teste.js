@@ -258,7 +258,7 @@ function verificaLetraEscolhida(letra) {
 
     // nao deixa selecionar uma letra que ja foi tentadata
     document.getElementById("tecla-" + letra).disabled = true;
-    document.getElementById("tecla-" + letra).style.backgroundColor = "red"; // MUDAR COR DEPOIS
+    document.getElementById("tecla-" + letra).style.backgroundColor = "#DD1C1A"; // MUDAR COR DEPOIS
 
     // verificar se ainda tem tentativas
     if (tentativas > 0) {
@@ -298,7 +298,7 @@ function comparaListas(letra) {
         for (i = 0; i < palavraSecretaSorteada.length; i++) {
             if (palavraSecretaSorteada[i] == letra) {
                 listaDinamica[i] = letra;
-                document.getElementById("tecla-" + letra).style.backgroundColor = "blue"; // MUDAR COR DEPOIS
+                document.getElementById("tecla-" + letra).style.backgroundColor = "#086788"; // MUDAR COR DEPOIS
             }
         }
     }
@@ -346,20 +346,4 @@ btn1.addEventListener('click', () => {
 
 //SCRIPT DA FORCA
 //ESCONDER PARTES DA FORCA
-
-
-//CABEÇA 
-$('#head').hide();
-
-//PEITO DO BONECO
-$('#torso').hide();
-
-//BRAÇO DIREITO
-$('#right-arm').hide();
-//BRAÇO ESQUERDO
-$('#left-arm').hide();
-
-//PERNA DIREITO
-$('#right-leg').hide();
-//PERNA ESQUERDO
-$('#left-leg').hide();
+$(' .hide').hide();
