@@ -346,4 +346,4 @@ btn1.addEventListener('click', () => {
 
 //SCRIPT DA FORCA
 //ESCONDER PARTES DA FORCA
-$(' .hide').hide();
+$('.hide').hide();

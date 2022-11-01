@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {}
-
 body {
     height: 100vh;
     width: 100%;
@@ -13,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#162B4C ;
+    background-color: #162B4C;
 }
 
 .letras {
@@ -34,30 +32,30 @@ body {
 }
 
 #palavra_secreta {
-    color:#fff;
+    color: #fff;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 2em;
 }
 
 .teclas {
     background: #ebae06;
     border-radius: 20px;
-    padding: 40px 50px;
-    /* width: auto; */
-    margin: 50px;
+    padding: 10px 25px;
+    max-width: 50vw;
     text-align: center;
-    box-shadow: 3px 5px 10px;
+    box-shadow: 0px 0px 90px #010d205b;
 }
 
 .btn-letra {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
     border-radius: 8px;
     margin: 5px 5px;
     border: 0;
     background: #fdd870;
-    padding: 20px 35px;
+    box-shadow: 0px 0px 50px #eb880679;
+    padding: 10px 25px;
     transition: 0.15s;
 }
 
@@ -66,11 +64,12 @@ body {
 }
 
 #categoria {
-    margin-bottom: 20px;
-    font-size: 2em;
-    color:#fff;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: #fff;
     font-weight: 600;
 }
-svg{
-    height: 40em;
+
+.forca {
+    height: 40vh;
 }
