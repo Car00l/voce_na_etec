@@ -37,7 +37,7 @@ const palavras = [
         categoria: "LUGARES"
     },
     palavra008 = {
-        nome: "UZBEQUISTAO",
+        nome: "ADAMANTINA",
         categoria: "LUGARES"
     },
     palavra009 = {
@@ -45,7 +45,7 @@ const palavras = [
         categoria: "LUGARES"
     },
     palavra010 = {
-        nome: "CREGUENHEM",
+        nome: "ITAPETININGA",
         categoria: "LUGARES"
     },
     palavra011 = {
@@ -85,7 +85,7 @@ const palavras = [
         categoria: "TRANSPORTE"
     },
     palavra020 = {
-        nome: "FUNICULAR",
+        nome: "ONIBUS",
         categoria: "TRANSPORTE"
     },
     palavra021 = {
@@ -109,7 +109,7 @@ const palavras = [
         categoria: "OBJETOS"
     },
     palavra026 = {
-        nome: "TAMBORETE",
+        nome: "BATERIA",
         categoria: "OBJETOS"
     },
     palavra027 = {
@@ -117,7 +117,7 @@ const palavras = [
         categoria: "OBJETOS"
     },
     palavra028 = {
-        nome: "BOCAL",
+        nome: "MONITOR",
         categoria: "OBJETOS"
     },
     palavra029 = {
@@ -141,31 +141,31 @@ const palavras = [
         categoria: "ALIMENTOS"
     },
     palavra034 = {
-        nome: "GOROROBA",
+        nome: "ESPAGUETE",
         categoria: "ALIMENTOS"
     },
     palavra035 = {
-        nome: "JANTAR",
+        nome: "ESPINAFRE",
         categoria: "ALIMENTOS"
     },
     palavra036 = {
-        nome: "SABOROSO",
+        nome: "REPOLHO",
         categoria: "ALIMENTOS"
     },
     palavra037 = {
-        nome: "DESJEJUM",
+        nome: "COXINHA",
         categoria: "ALIMENTOS"
     },
     palavra038 = {
-        nome: "MASTIGAR",
+        nome: "PIRULITO",
         categoria: "ALIMENTOS"
     },
     palavra039 = {
-        nome: "ENGOLIR",
+        nome: "FEIJOADA",
         categoria: "ALIMENTOS"
     },
     palavra040 = {
-        nome: "DOCERIA",
+        nome: "GOIABA",
         categoria: "ALIMENTOS"
     },
     palavra040 = {
