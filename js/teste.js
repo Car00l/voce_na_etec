@@ -322,12 +322,12 @@ function comparaListas(letra) {
 //Botão de recarregar a página
 function modalPerdeu() {
     $('#modalPerdeu').modal('show');
-    palavra_modal.innerHTML = palavra_modal.innerHTML + "<div class='palavra_modal'>" + palavraSecretaSorteada + "</div>";
+    palavra_modal.innerHTML = palavra_modal.innerHTML + "<div class='palavra_modal font-weight-bold'>" + palavraSecretaSorteada + "</div>";
 }
 
 function modalGanhou() {
     $('#modalGanhou').modal('show');
-    palavra_modal2.innerHTML = palavra_modal2.innerHTML + "<div class='palavra_modal2'>" + palavraSecretaSorteada + "</div>";
+    palavra_modal2.innerHTML = palavra_modal2.innerHTML + "<div class='palavra_modal2 font-weight-bold'>" + palavraSecretaSorteada + "</div>";
 }
 
 //O que fez funcionar o Refresh
