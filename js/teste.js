@@ -211,6 +211,46 @@ const palavras = [
     palavra050 = {
         nome: "HIPOPOTAMO",
         categoria: "ANIMAIS"
+    },
+    palavra051 = {
+        nome: "COLORIR",
+        categoria: "AÇÕES"
+    },
+    palavra052 = {
+        nome: "ESQUEIRAR",
+        categoria: "AÇÕES"
+    },
+    palavra053 = {
+        nome: "CAMINHAR",
+        categoria: "AÇÕES"
+    },
+    palavra054 = {
+        nome: "ASSISTIR",
+        categoria: "AÇÕES"
+    },
+    palavra055 = {
+        nome: "COZINHAR",
+        categoria: "AÇÕES"
+    },
+    palavra056 = {
+        nome: "ESFREGAR",
+        categoria: "AÇÕES"
+    },
+    palavra057 = {
+        nome: "CHORAMINGAR",
+        categoria: "AÇÕES"
+    },
+    palavra058 = {
+        nome: "EXPLORAR",
+        categoria: "AÇÕES"
+    },
+    palavra059 = {
+        nome: "ESPREITAR",
+        categoria: "AÇÕES"
+    },
+    palavra060 = {
+        nome: "ESPIONAR",
+        categoria: "AÇÕES"
     }
 ];
 
